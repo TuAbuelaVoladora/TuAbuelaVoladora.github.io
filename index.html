@@ -1,346 +1,50 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
-<html lang="en" class="sr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-	<link rel="stylesheet" href="styles.scss">
-
-    <!-- Todo: put here your site title -->
-    <title>[TAV] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="Tu Abuela Voladora, Daniel, Web Development" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="TAV | Developer" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <!-- script async defer src="https://buttons.github.io/buttons.js"></script -->
-  </head>
-
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
-
-    <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">TAV</span>
-          <br />
-          I'm an Unknown Developer.
-        </h1>
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
-        </p>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
-
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
-              </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
-              </p>
-              <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
-                >
-                  View Resume
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
-                <div>
-                  <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
-                <div>
-                  <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- Todo: remove this entire paragraph once you finish your portfolio -->
-        <!-- <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p> -->
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
-
-    <script defer type="module" src="index.js"></script>
-  </body>
-</html>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta property="og:description" content="Create a beautiful page to show your audience everything you are, create, and sell in one link. Designed in Berlin."/>
+    <meta property="og:url" content="https://bento.me/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image:alt" content="Bento - Show everything you are, create and sell."/>
+    <meta property="og:image:type" content="image/jpeg"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:site_name" content="Bento"/>
+    <title>Tu Abuela Voladora</title>
+    <meta name="robots" content="index,follow"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta property="og:title" content="Tu Abuela Voladora"/>
+    <meta property="og:image" content="https://api.bento.me/v1/og/ssx4899?v=487890"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+    <link rel="shortcut icon" href="https://creatorspace.imgix.net/users/cmevpymuq03x7s401u5ovloz8/7nPRxfxrwvGF23Dv-20250827_024149.jpg?w=200&amp;h=200&amp;fit=crop"/>
+    <meta name="next-head-count" content="18"/>
+    <script>
+      !function(t,e){var o,n,p,r;
+        e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");
+        2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);
+        var u=e;
+        for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);
+        e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+      posthog.init('phc_G4AFfCmEbWIvWKNFZUKihi5tHhcISQXwlUazK2nLvA4',{api_host:'https://app.posthog.com'})
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true"/>
+    <link rel="manifest" href="/site.webmanifest"/>
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#768CFF"/>
+    <meta name="msapplication-TileColor" content="#768CFF"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css" rel="stylesheet"/>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet"/>
+    <link rel="preload" href="/_next/static/css/2da1f84e8bcd7760.css" as="style"/>
+    <link rel="stylesheet" href="/_next/static/css/2da1f84e8bcd7760.css" data-n-g=""/>
+    <link rel="preload" href="/_next/static/css/d07415fbc49591c3.css" as="style"/>
+    <link rel="stylesheet" href="/_next/static/css/d07415fbc49591c3.css" data-n-p=""/>
+    <noscript data-n-css=""></noscript>
+    <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script src="/_next/static/chunks/webpack-1e5debf362911273.js" defer=""></script>
+    <script src="/_next/static/chunks/framework-d6b15d8b3dd1dcdb.js" defer=""></script>
+    <script src="/_next/static/chunks/main-b31b9261c8d6d62c.js" defer=""></script>
+    <script src="/_next/static/chunks/pages/_app-c51ac326e1efcb75.js" defer=""></script>
+    <script src="/_next/static/chunks/b155a556-2563bfd0c0314e19.js" defer=""></script><script src="/_next/static/chunks/736-fc525af6d7db5aa7.js" defer=""></script><script src="/_next/static/chunks/25-c16969475fbc89ce.js" defer=""></script><script src="/_next/static/chunks/759-75aa9d2cc73403ce.js" defer=""></script><script src="/_next/static/chunks/784-0eda69a4f2596e97.js" defer=""></script><script src="/_next/static/chunks/879-57353426c45ce39a.js" defer=""></script><script src="/_next/static/chunks/767-2e87e299c046e2a2.js" defer=""></script><script src="/_next/static/chunks/891-3c855a302c7ac2d5.js" defer=""></script><script src="/_next/static/chunks/739-ecf25db2dbbd297a.js" defer=""></script><script src="/_next/static/chunks/223-14896529b76aff22.js" defer=""></script><script src="/_next/static/chunks/pages/%5Bhandle%5D-effaa8d3e0b1be90.js" defer=""></script><script src="/_next/static/NGuLQRvg0bFDBGxCYDPkb/_buildManifest.js" defer=""></script><script src="/_next/static/NGuLQRvg0bFDBGxCYDPkb/_ssgManifest.js" defer=""></script><style id="__jsx-f5ceee4426fc8276">:root{--inter-font:"Inter", sans-serif}html{font-family:var(--inter-font)}</style></head><body><div id="__next"><div data-dummy="true"></div><main class="min-full-screen flex flex-col items-center justify-center"><div class="min-full-screen flex w-full max-w-[1728px] flex-col"><div class="relative flex min-h-screen w-full flex-1 flex-col items-center"><div class="flex h-full w-full max-w-[428px] items-center justify-center p-6 pt-12 pb-0 xl:absolute xl:top-0 xl:max-w-[min(100vw,1728px)] xl:items-stretch xl:justify-start xl:p-16"><div class="flex w-full flex-col px-4 xl:mr-20 xl:flex-1 xl:px-0"><div class="relative xl:sticky xl:top-16" style="opacity:0"><div data-avatar="true" class="s-[120px] xl:s-[184px]"><div class="styles_avatar__Qe60n styles_avatar--circle__7p3KY s-full"><img src="https://creatorspace.imgix.net/users/cmevpymuq03x7s401u5ovloz8/7nPRxfxrwvGF23Dv-20250827_024149.jpg?w=300&amp;h=300" alt="avatar"/><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div></div><div class="ml-2 w-[calc(100%-8px)] max-w-[min(500px,100%-8px)] xl:max-w-[min(500px,calc(100vw_-_1000px))] mt-8"><div class="text-[32px] font-bold leading-[120%] tracking-[-1px] xl:text-[44px] xl:tracking-[-2px]"><div class="rt-editor">Tu Abuela Voladora</div></div><div class="mt-3 text-[#565656] xl:mt-3 xl:text-xl"><div class="styles_bio__oMe8p"><div class="text-black/30"></div></div></div></div></div></div></div><div class="flex h-full w-full max-w-[428px] flex-1 flex-col p-6 pt-0 xl:max-w-[1728px] xl:flex-row xl:p-16" data-bento-container="true"><div class="mb-10 flex flex-col px-4 xl:mb-0 xl:mr-20 xl:flex-1 xl:px-0"></div><div class="relative flex-1 xl:w-[820px] xl:flex-none" data-grid-dropzone="true"><div class="bento-grid"><div class="bento-grid__content" style="opacity:0"><div class="bento-grid__item" data-id="Lo1tov6GuWGJCIUf"><div data-item-scale-content="true" class="bento-item__scaler"><div data-item-content="true" class="bento-item__content"><a class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd" style="--widget-color:#55ACEE;--widget-color-bg:#F5FAFE;--widget-color-hover:#F0F7FD;--widget-color-active:#E9F4FC" href="https://twitter.com/ssx4899" target="_blank" rel="noopener noreferrer" draggable="false" tabindex="3" data-widget-content-container="true"><div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true"><div class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR"><div class="styles_link-widget___Cd4d styles_link-widget--2x2__Lk0SG"><div class="styles_description__FRpZD"><div class="flex items-start"><div class="relative styles_icon__5o5__"><svg width="16" height="16" class="h-full w-full" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="40" height="40" rx="10" fill="#55ACEE"></rect><mask id="mask0_920_2751" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="8" y="10" width="24" height="20"><path d="M31.9309 10.2326H8V29.6807H31.9309V10.2326Z" fill="white"></path></mask><g mask="url(#mask0_920_2751)"><path d="M31.9309 12.5347C31.0506 12.9253 30.1043 13.1891 29.1112 13.3078C30.1248 12.7002 30.9034 11.7381 31.27 10.5915C30.3211 11.1543 29.2704 11.5628 28.152 11.7829C27.2565 10.8287 25.9806 10.2326 24.5684 10.2326C21.857 10.2326 19.6586 12.4307 19.6586 15.1421C19.6586 15.5269 19.702 15.9017 19.7858 16.261C15.7053 16.0563 12.0876 14.1016 9.66603 11.1312C9.24342 11.8563 9.00123 12.6996 9.00123 13.5994C9.00123 15.3028 9.86801 16.8056 11.1854 17.686C10.3806 17.6605 9.62356 17.4396 8.96163 17.0719C8.96107 17.0924 8.96107 17.113 8.96107 17.1337C8.96107 19.5124 10.6535 21.4967 12.8995 21.948C12.4876 22.0602 12.0538 22.1202 11.606 22.1202C11.2897 22.1202 10.9822 22.0893 10.6823 22.032C11.3071 23.9826 13.1203 25.4021 15.2688 25.4416C13.5885 26.7585 11.4716 27.5434 9.17118 27.5434C8.77489 27.5434 8.38409 27.5201 8 27.4747C10.1728 28.8679 12.7535 29.6807 15.5262 29.6807C24.5569 29.6807 29.4955 22.1995 29.4955 15.7113C29.4955 15.4985 29.4906 15.2868 29.4813 15.0761C30.4404 14.384 31.2727 13.5194 31.9309 12.5347Z" fill="white"></path></g></svg><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div></div><div class="styles_link-meta__container__K1H22"><div class="styles_title___sgwe">Twitter</div><div class="styles_handle__GaWZ1">@ssx4899</div></div><div data-prevent-widget="true" data-rich-button="true" role="button" class="styles_follow-button__8DSDT">Follow</div></div></div></div></div><div class="styles_widget__border__mnIDF"></div><div class="styles_widget__border-highlight__wP_ik"></div></a></div></div></div><div class="bento-grid__item" data-id="vKdpzS3kSxK9xAes"><div data-item-scale-content="true" class="bento-item__scaler"><div data-item-content="true" class="bento-item__content"><a class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd" style="--widget-color:#FF0000;--widget-color-bg:#FFF0F0;--widget-color-hover:#FFE8E8;--widget-color-active:#FFDBDB" href="https://youtube.com/@tuabuelavoladora" target="_blank" rel="noopener noreferrer" draggable="false" tabindex="2" data-widget-content-container="true"><div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true"><div class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR"><div class="styles_link-widget__SIb2_ styles_link-widget--4x2___iqG3"><div class="styles_description__TkqVF"><div class="flex items-start"><div class="relative styles_icon__5o5__"><svg width="16" height="16" class="h-full w-full" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="40" height="40" rx="10" fill="#FF0000"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M29.3766 12.5016C30.4093 12.7775 31.2225 13.5907 31.4986 14.6233L31.4985 14.6234C32 16.495 32 20.4001 32 20.4001C32 20.4001 32 24.305 31.4985 26.1768C31.2224 27.2094 30.4092 28.0225 29.3765 28.2986C27.505 28.8 19.9999 28.8 19.9999 28.8C19.9999 28.8 12.4949 28.8 10.6233 28.2986C9.59065 28.0224 8.77727 27.2094 8.50144 26.1767C8 24.3049 8 20.4 8 20.4C8 20.4 8 16.4949 8.50144 14.6233C8.77727 13.5907 9.59065 12.7775 10.6234 12.5016C12.495 12 20 12 20 12C20 12 27.5051 12 29.3766 12.5016ZM24.4429 20.6931L17.6001 24.5857V16.8L24.4429 20.6931Z" fill="white"></path></svg><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div></div><div class="styles_link-meta__container__cH_Y_"><div class="styles_title__uRF8b">Tu Abuela Voladora</div></div></div><div class="styles_youtube-grid__fIYE8"><div><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div><div><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div><div><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div><div><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div></div><div class="flex-1"></div><div data-prevent-widget="true" data-rich-button="true" role="button" class="styles_follow-button__885Ii rounded-full bg-[#FF0000] text-center font-bold text-white hover:bg-[#EB0404] active:bg-[#DE0000] active:text-white/90">Subscribe<!-- --> </div></div></div></div><div class="styles_widget__border__mnIDF"></div><div class="styles_widget__border-highlight__wP_ik"></div></a></div></div></div><div class="bento-grid__item" data-id="w93PUUqt8I1WGmgU"><div data-item-scale-content="true" class="bento-item__scaler"><div data-item-content="true" class="bento-item__content"><a class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd" style="--widget-color:#000" href="https://github.com/TuAbuelaVoladora" target="_blank" rel="noopener noreferrer" draggable="false" tabindex="1" data-widget-content-container="true"><div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true"><div class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR"><div class="styles_link-widget___XVQG styles_link-widget--4x2__4Ke_m"><div class="styles_description__BcDjh"><div class="flex items-start"><div class="relative styles_icon__5o5__"><svg width="16" height="16" class="h-full w-full" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="40" height="40" rx="10" fill="black"></rect><g clip-path="url(#clip0_920_2749)"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 8C13.37 8 8 13.37 8 20C8 25.31 11.435 29.795 16.205 31.385C16.805 31.49 17.03 31.13 17.03 30.815C17.03 30.53 17.015 29.585 17.015 28.58C14 29.135 13.22 27.845 12.98 27.17C12.845 26.825 12.26 25.76 11.75 25.475C11.33 25.25 10.73 24.695 11.735 24.68C12.68 24.665 13.355 25.55 13.58 25.91C14.66 27.725 16.385 27.215 17.075 26.9C17.18 26.12 17.495 25.595 17.84 25.295C15.17 24.995 12.38 23.96 12.38 19.37C12.38 18.065 12.845 16.985 13.61 16.145C13.49 15.845 13.07 14.615 13.73 12.965C13.73 12.965 14.735 12.65 17.03 14.195C17.99 13.925 19.01 13.79 20.03 13.79C21.05 13.79 22.07 13.925 23.03 14.195C25.325 12.635 26.33 12.965 26.33 12.965C26.99 14.615 26.57 15.845 26.45 16.145C27.215 16.985 27.68 18.05 27.68 19.37C27.68 23.975 24.875 24.995 22.205 25.295C22.64 25.67 23.015 26.39 23.015 27.515C23.015 29.12 23 30.41 23 30.815C23 31.13 23.225 31.505 23.825 31.385C28.565 29.795 32 25.295 32 20C32 13.37 26.63 8 20 8Z" fill="white"></path></g><defs><clipPath id="clip0_920_2749"><rect width="24" height="24" fill="white" transform="translate(8 8)"></rect></clipPath></defs></svg><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div></div><div class="styles_link-meta__container__6CCP7"><div class="styles_title__MU2Pd">Tu Abuela Voladora</div></div></div><div class="styles_graph__sai4B"><div class="styles_illustration__fo34z"><svg width="100%" height="100%" viewBox="0 0 132 132" fill="none" preserveAspectRatio="xMaxYMin meet" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="0.5" y="0.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="0" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="0.5" y="20.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="0" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="0.5" y="40.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="0" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="0.5" y="60.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="0" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="0.5" y="80.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="0" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="0.5" y="100.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="0" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="0.5" y="120.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="20" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="20.5" y="0.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="20" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="20.5" y="20.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="20" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="20.5" y="40.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="20" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="20.5" y="60.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="20" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="20.5" y="80.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="20" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="20.5" y="100.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="20" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="20.5" y="120.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="40" y="0" width="12" height="12" rx="2.5" fill="#216e39"></rect><rect x="40.5" y="0.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="40" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="40.5" y="20.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="40" y="40" width="12" height="12" rx="2.5" fill="#216e39"></rect><rect x="40.5" y="40.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="40" y="60" width="12" height="12" rx="2.5" fill="#40c463"></rect><rect x="40.5" y="60.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="40" y="80" width="12" height="12" rx="2.5" fill="#9be9a8"></rect><rect x="40.5" y="80.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="40" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="40.5" y="100.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="40" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="40.5" y="120.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="60" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="60.5" y="0.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="60" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="60.5" y="20.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="60" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="60.5" y="40.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="60" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="60.5" y="60.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="60" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="60.5" y="80.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="60" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="60.5" y="100.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="60" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="60.5" y="120.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="80" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="80.5" y="0.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="80" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="80.5" y="20.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="80" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="80.5" y="40.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="80" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="80.5" y="60.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="80" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="80.5" y="80.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="80" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="80.5" y="100.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="80" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="80.5" y="120.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="100" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="100.5" y="0.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="100" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="100.5" y="20.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="100" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="100.5" y="40.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="100" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="100.5" y="60.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="100" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="100.5" y="80.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="100" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="100.5" y="100.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="100" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="100.5" y="120.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="120" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="120.5" y="0.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="120" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="120.5" y="20.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="120" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="120.5" y="40.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="120" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="120.5" y="60.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect><rect x="120" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect><rect x="120.5" y="80.5" width="11" height="11" rx="2" stroke-width="1" stroke="rgba(0,0,0,0.04)"></rect></svg></div><div class="flex-1"></div><div data-prevent-widget="true" data-rich-button="true" role="button" class="styles_follow-button__rD65O">Follow</div></div></div></div></div><div class="styles_widget__border__mnIDF"></div><div class="styles_widget__border-highlight__wP_ik"></div></a></div></div></div><div class="bento-grid__item" data-id="LgXGaaBlhJyHo3TF"><div data-item-scale-content="true" class="bento-item__scaler"><div data-item-content="true" class="bento-item__content"><a class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd" href="https://anilist.co/user/TuAbuelaVoladora/" target="_blank" rel="noopener noreferrer" draggable="false" tabindex="0" data-widget-content-container="true"><div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true"><div class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR"><div class="styles_link-widget__WOY8_ styles_link-widget--2x4__ls6Ee"><div class="styles_description__aVbsD"><div class="relative styles_icon__5o5__"><img src="https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9hbmlsaXN0LmNvL2ltZy9pY29ucy9hcHBsZS10b3VjaC1pY29uLnBuZw%3D%3D.png" alt="" class="h-full w-full rounded-[inherit]"/><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div><div class="styles_link-meta__container__w2b_G"><div class="styles_title__kGBWE">AniList</div><div class="styles_host__zTVRc">anilist.co</div></div></div><div class="styles_frame__ymcZM styles_og__Rq6el"><img loading="lazy" src="https://creatorspace.imgix.net/sites/aHR0cHM6Ly9hbmlsaXN0LmNvL3VzZXIvVHVBYnVlbGFWb2xhZG9yYS8=/screenshot.jpeg?width=600&amp;height=600" alt="" class="h-full w-full rounded-[inherit] object-cover"/><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div><div class="styles_menu___Mz8b" style="left:-10px;top:-10px;opacity:0"></div></div></div></div></div><div class="styles_widget__border__mnIDF"></div><div class="styles_widget__border-highlight__wP_ik"></div></a></div></div></div><div class="bento-grid__item" data-id="paUQuROrojTrWfCx"><div data-item-scale-content="true" class="bento-item__scaler"><div data-item-content="true" class="bento-item__content"><a class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd" style="--widget-color:#FF0000;--widget-color-bg:#FFF0F0;--widget-color-hover:#FFE8E8;--widget-color-active:#FFDBDB" href="https://music.youtube.com/playlist?list=PLBggTmxnIoFt0OmfH3_cVWkyP6mK9hFhx&amp;si=XKoY-YISohiab5Qt" target="_blank" rel="noopener noreferrer" draggable="false" tabindex="4" data-widget-content-container="true"><div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true"><div class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR"><div class="styles_link-widget__WOY8_ styles_link-widget--2x2__fvUqB"><div class="styles_description__aVbsD"><div class="relative styles_icon__5o5__"><svg width="16" height="16" class="h-full w-full" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="40" height="40" rx="10" fill="#FF0000"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M29.3766 12.5016C30.4093 12.7775 31.2225 13.5907 31.4986 14.6233L31.4985 14.6234C32 16.495 32 20.4001 32 20.4001C32 20.4001 32 24.305 31.4985 26.1768C31.2224 27.2094 30.4092 28.0225 29.3765 28.2986C27.505 28.8 19.9999 28.8 19.9999 28.8C19.9999 28.8 12.4949 28.8 10.6233 28.2986C9.59065 28.0224 8.77727 27.2094 8.50144 26.1767C8 24.3049 8 20.4 8 20.4C8 20.4 8 16.4949 8.50144 14.6233C8.77727 13.5907 9.59065 12.7775 10.6234 12.5016C12.495 12 20 12 20 12C20 12 27.5051 12 29.3766 12.5016ZM24.4429 20.6931L17.6001 24.5857V16.8L24.4429 20.6931Z" fill="white"></path></svg><div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div></div><div class="styles_link-meta__container__w2b_G"><div class="styles_title__kGBWE"><div class=""><p>Music Playlist</p></div></div><div class="styles_host__zTVRc">music.youtube.com</div></div></div><div class="styles_frame__ymcZM styles_og__Rq6el"><div class="styles_menu___Mz8b" style="left:-10px;top:-10px;opacity:0"></div></div></div></div></div><div class="styles_widget__border__mnIDF"></div><div class="styles_widget__border-highlight__wP_ik"></div></a></div></div></div></div></div></div></div></div></div><div class="fixed left-16 bottom-[52px] -m-1 hidden items-center space-x-1 rounded-[12px] p-1 transition-colors xl:flex 2xl:space-x-2 duration-400 bg-white delay-500" style="opacity:0"><a class="styles_button__sP771 styles_button--variant-transparent__dd9Xc styles_button--size-none__pwYPl styles_button--animation-default__VEMTd styles_button--rounding-full__MBCaE flex items-center justify-center" style="width:32px;height:32px" target="_blank" href="https://bento.me/explore" data-state="closed"><div class="styles_button__content__z6RqE justify-center"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="6" stroke="#8E8E8E" stroke-width="2"></circle><path d="M6.22695 6.84827L5.68089 9.57858C5.59287 10.0187 5.98088 10.4067 6.42096 10.3187L9.15128 9.7726C9.4625 9.71035 9.70577 9.46708 9.76801 9.15587L10.3141 6.42555C10.4021 5.98546 10.0141 5.59746 9.574 5.68547L6.84368 6.23154C6.53246 6.29378 6.28919 6.53705 6.22695 6.84827Z" fill="#8E8E8E"></path></svg></div><div class="styles_button__loading-spinner__BH0Wf"><svg height="16" width="16" class="styles_container__9hC7b" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><g transform="rotate(0 50 50)"><rect x="44" y="0.5" rx="6" ry="6.29" width="12" height="37" fill="currentColor"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="0.625s" begin="-0.5208333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(60 50 50)"><rect x="44" y="0.5" rx="6" ry="6.29" width="12" height="37" fill="currentColor"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="0.625s" begin="-0.41666666666666663s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(120 50 50)"><rect x="44" y="0.5" rx="6" ry="6.29" width="12" height="37" fill="currentColor"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="0.625s" begin="-0.31249999999999994s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(180 50 50)"><rect x="44" y="0.5" rx="6" ry="6.29" width="12" height="37" fill="currentColor"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="0.625s" begin="-0.20833333333333331s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(240 50 50)"><rect x="44" y="0.5" rx="6" ry="6.29" width="12" height="37" fill="currentColor"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="0.625s" begin="-0.10416666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(300 50 50)"><rect x="44" y="0.5" rx="6" ry="6.29" width="12" height="37" fill="currentColor"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="0.625s" begin="0s" repeatCount="indefinite"></animate></rect></g></svg></div><div class="styles_button__shine__juQJP" style="animation-duration:4000ms"></div></a></div></main><div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none;padding:32px"></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"profile":{"id":"cmevpymuq03x7s401u5ovloz8","name":"Tu Abuela Voladora","handle":"ssx4899","bento":{"items":[{"data":{"id":"Lo1tov6GuWGJCIUf","href":"https://twitter.com/ssx4899","type":"link","style":{"mobile":"2x2","desktop":"2x2"}},"position":{"mobile":{"x":0,"y":2},"desktop":{"x":0,"y":2}}},{"data":{"id":"vKdpzS3kSxK9xAes","href":"https://youtube.com/@tuabuelavoladora","type":"link","style":{"mobile":"2x2","desktop":"4x2"}},"position":{"mobile":{"x":2,"y":2},"desktop":{"x":6,"y":0}}},{"data":{"id":"w93PUUqt8I1WGmgU","href":"https://github.com/TuAbuelaVoladora","type":"link","style":{"mobile":"2x2","desktop":"4x2"}},"position":{"mobile":{"x":0,"y":4},"desktop":{"x":4,"y":0}}},{"data":{"id":"LgXGaaBlhJyHo3TF","href":"https://anilist.co/user/TuAbuelaVoladora/","type":"link","style":{"mobile":"2x4","desktop":"2x4"}},"position":{"mobile":{"x":0,"y":0},"desktop":{"x":0,"y":0}}},{"data":{"id":"paUQuROrojTrWfCx","href":"https://music.youtube.com/playlist?list=PLBggTmxnIoFt0OmfH3_cVWkyP6mK9hFhx\u0026si=XKoY-YISohiab5Qt","type":"link","style":{"mobile":"2x2","desktop":"2x2"},"overrides":{"title":{"type":"doc","content":[{"type":"paragraph","content":[{"text":"Music Playlist","type":"text"}]}]}}},"position":{"mobile":{"x":2,"y":4},"desktop":{"x":2,"y":2}}}],"version":"v2"},"image":"https://storage.googleapis.com/creatorspace-public/users%2Fcmevpymuq03x7s401u5ovloz8%2F7nPRxfxrwvGF23Dv-20250827_024149.jpg","bio":null,"ogImage":null,"createdAt":"2025-08-28T18:10:20.595Z"},"fallback":{"/urlmetadata/https%3A%2F%2Fanilist.co%2Fuser%2FTuAbuelaVoladora%2F":{"url":"https://anilist.co/user/TuAbuelaVoladora/","title":"AniList","description":null,"siteName":"AniList","siteVideoUrl":null,"imageUrl":null,"audioUrl":null,"videoUrl":null,"faviconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9hbmlsaXN0LmNvL2ltZy9pY29ucy9mYXZpY29uLTMyeDMyLnBuZw%3D%3D.png","touchIconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9hbmlsaXN0LmNvL2ltZy9pY29ucy9hcHBsZS10b3VjaC1pY29uLnBuZw%3D%3D.png","screenshotUrl":"https://storage.googleapis.com/creatorspace-public/sites/aHR0cHM6Ly9hbmlsaXN0LmNvL3VzZXIvVHVBYnVlbGFWb2xhZG9yYS8=/screenshot.jpeg","status":"COMPLETED","createdAt":"2025-08-28T18:12:03.178Z","updatedAt":"2025-08-28T18:12:10.982Z"},"/urlmetadata/https%3A%2F%2Fmusic.youtube.com%2Fplaylist%3Flist%3DPLBggTmxnIoFt0OmfH3_cVWkyP6mK9hFhx%26si%3DXKoY-YISohiab5Qt":{"url":"https://music.youtube.com/playlist?list=PLBggTmxnIoFt0OmfH3_cVWkyP6mK9hFhx\u0026si=XKoY-YISohiab5Qt","title":null,"description":null,"siteName":null,"siteVideoUrl":null,"imageUrl":null,"audioUrl":null,"videoUrl":null,"faviconUrl":null,"touchIconUrl":null,"screenshotUrl":null,"status":"FAILED","createdAt":"2025-08-28T18:16:56.975Z","updatedAt":"2025-08-28T18:17:59.481Z"},"/urlrichdata/https%3A%2F%2Ftwitter.com%2Fssx4899":{"url":"https://twitter.com/ssx4899","data":{"cover":"https://storage.googleapis.com/creatorspace-public/richdata%2Ftwitter%2Fcovers%2FaHR0cHM6Ly9wYnMudHdpbWcuY29tL3Byb2ZpbGVfYmFubmVycy8xOTI5MTYwMDAyOTU2MTUyODMyLzE3NTUwOTUxMTEvMTUwMHg1MDA%3D.jpeg","avatar":"https://storage.googleapis.com/creatorspace-public/richdata%2Ftwitter%2Favatars%2FaHR0cHM6Ly9wYnMudHdpbWcuY29tL3Byb2ZpbGVfaW1hZ2VzLzE5NTU2MzY3NTcxMzI2MTU2ODAvcWwyZnpzTi1fMjAweDIwMC5qcGc%3D.jpeg","handle":"ssx4899","bioLinks":["anilist.co/user/5554289","238 Following","3 Followers"],"userName":"Tu Abuela Voladora","following":238},"status":"COMPLETED","createdAt":"2025-08-28T18:10:31.651Z","updatedAt":"2025-08-28T18:10:38.583Z"},"/urlrichdata/https%3A%2F%2Fyoutube.com%2F%40tuabuelavoladora":{"url":"https://youtube.com/@tuabuelavoladora","data":{"videos":[],"channelName":"Tu Abuela Voladora","channelHandle":"@tuabuelavoladora"},"status":"COMPLETED","createdAt":"2025-08-28T18:10:41.631Z","updatedAt":"2025-08-28T18:10:46.890Z"},"/urlrichdata/https%3A%2F%2Fgithub.com%2FTuAbuelaVoladora":{"url":"https://github.com/TuAbuelaVoladora","data":{"name":"Tu Abuela Voladora","handle":"TuAbuelaVoladora","followers":0,"following":4,"repositories":4,"contributions":[{"week":"2024-08-25","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-09-01","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-09-08","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-09-15","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-09-22","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-09-29","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-10-06","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-10-13","contributions":[{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-10-20","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-10-27","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-11-03","contributions":[{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-11-10","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-11-17","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-11-24","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-12-01","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-12-08","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-12-15","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-12-22","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2024-12-29","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-01-05","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-01-12","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-01-19","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-01-26","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-02-02","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-02-09","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-02-16","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-02-23","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-03-02","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-03-09","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-03-16","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-03-23","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-03-30","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-04-06","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-04-13","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-04-20","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-04-27","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-05-04","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-05-11","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-05-18","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-05-25","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-06-01","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-06-08","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-06-15","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-06-22","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-06-29","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-07-06","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-07-13","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-07-20","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-07-27","contributions":[{"color":"#216e39","count":5},{"color":"#ebedf0","count":0},{"color":"#216e39","count":6},{"color":"#40c463","count":3},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-08-03","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-08-10","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-08-17","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2025-08-24","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]}],"totalContributions":17},"status":"COMPLETED","createdAt":"2025-08-28T18:11:28.678Z","updatedAt":"2025-08-28T18:11:29.396Z"}}},"__N_SSG":true},"page":"/[handle]","query":{"handle":"ssx4899"},"buildId":"NGuLQRvg0bFDBGxCYDPkb","isFallback":false,"gsp":true,"locale":"en","locales":["en"],"defaultLocale":"en","scriptLoader":[]}</script></body></html>
